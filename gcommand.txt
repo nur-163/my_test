@@ -1,0 +1,12 @@
+git --version
+git init
+git config --list
+git config --global user.name "Nur-Zannat"
+git config --global user.email "zannatnur2k21@gmail.com"
+
+
+
+main task:
+git init
+git add .
+git commit -m
