@@ -1,0 +1,5 @@
+add_test([=[LoggerTest.SingletonIdentity]=]  /Users/nure/Documents/lab_test/build/runTests [==[--gtest_filter=LoggerTest.SingletonIdentity]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[LoggerTest.SingletonIdentity]=]  PROPERTIES WORKING_DIRECTORY /Users/nure/Documents/lab_test/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[LoggerTest.LoggingOutput]=]  /Users/nure/Documents/lab_test/build/runTests [==[--gtest_filter=LoggerTest.LoggingOutput]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[LoggerTest.LoggingOutput]=]  PROPERTIES WORKING_DIRECTORY /Users/nure/Documents/lab_test/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  runTests_TESTS LoggerTest.SingletonIdentity LoggerTest.LoggingOutput)

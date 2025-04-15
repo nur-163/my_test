@@ -6,10 +6,16 @@ git config --global user.email "zannatnurezannat@gmail.com"
 
 
 
-main task:
+main task: task 01
 git init
 git add .
 git commit -m "adding initial file"
 git remote add url_nickname your_url
-git remote add mango https://github.com/Nur-Zannat/my_test.git
-git push -u mango master 
+git remote add abc https://github.com/nur-163/my_test.git
+git push -u abc master 
+
+
+task 02(after run)
+git status
+git add .
+git commit -m "adding final files"
