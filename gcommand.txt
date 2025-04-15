@@ -1,12 +1,15 @@
 git --version
 git init
 git config --list
-git config --global user.name "Nur-Zannat"
-git config --global user.email "zannatnur2k21@gmail.com"
+git config --global user.name "Nur-163"
+git config --global user.email "zannatnurezannat@gmail.com"
 
 
 
 main task:
 git init
 git add .
-git commit -m
+git commit -m "adding initial file"
+git remote add url_nickname your_url
+git remote add mango https://github.com/Nur-Zannat/my_test.git
+git push -u mango master 
